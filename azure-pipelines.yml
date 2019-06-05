@@ -22,7 +22,7 @@ steps:
   inputs:
     command: publish
     publishWebProjects: false
-    projects: 'biddermangement/biddermangement.csproj'
+    projects: 'biddermangement/biddermanagement.csproj'
     arguments: '--configuration $(buildConfiguration) --output $(Build.ArtifactStagingDirectory)'
     zipAfterPublish: true
 
