@@ -14,7 +14,7 @@ namespace biddermanagement.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "inside", "bidder" };
+            return new string[] { "in", "bidder" };
         }
 
         // GET api/values/5
